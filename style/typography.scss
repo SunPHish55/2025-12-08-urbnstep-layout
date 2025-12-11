@@ -1,0 +1,78 @@
+@mixin font-h{
+    font-family: "Noto Sans TC", sans-serif;
+    line-height: 1.2;
+    letter-spacing: 5em;
+}
+@mixin font-p{
+    font-family: "Noto Sans TC", sans-serif;
+    line-height: 1.5;
+    letter-spacing: 5em;
+}
+
+@mixin text-display1{
+    @include font-h;
+    font-size: 64px;
+}
+
+@mixin text-display2{
+    @include font-h;
+    font-size: 48px;
+}
+
+@mixin text-tw-h1{
+    @include font-h;
+    font-size: 40px;
+}
+
+@mixin text-tw-h2{
+    @include font-h;
+    font-size: 32px;
+}
+@mixin text-tw-h3{
+    @include font-h;
+    font-size: 28px;
+}
+@mixin text-tw-h4{
+    @include font-h;
+    font-size: 24px;
+}
+@mixin text-tw-h5{
+    @include font-h;
+    font-size: 20px;
+}
+@mixin text-tw-h6{
+    @include font-h;
+    font-size: 16px;
+}
+@mixin text-tw-lb-lg{
+    @include font-p;
+    font-size: 20px;
+}
+@mixin text-tw-lb-md{
+    @include font-p;
+    font-size: 16px;
+}
+@mixin text-tw-lb-sm{
+    @include font-p;
+    font-size: 14px;
+}
+@mixin text-tw-lb-xs{
+    @include font-p;
+    font-size: 12px;
+}
+@mixin text-tw-p-lg{
+    @include font-p;
+    font-size: 20px;
+}
+@mixin text-tw-p-md{
+    @include font-p;
+    font-size: 16px;
+}
+@mixin text-tw-p-sm{
+    @include font-p;
+    font-size: 14px;
+}
+@mixin text-tw-p-xs{
+    @include font-p;
+    font-size: 12px;
+}
