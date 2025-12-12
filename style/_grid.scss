@@ -1,0 +1,25 @@
+.container{
+    width: 100%;
+    max-width: 1296px;
+    margin: 0 auto;
+    padding-left: 312px;
+    padding-right: 312px;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 24px;
+}
+
+/* mobile */
+@media (max-width: 375px) {
+  .container {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .row {
+    gap: 16px;
+  }
+}
