@@ -1,0 +1,65 @@
+.navbar{
+    height: 80px;
+    width: 100%;
+    max-width: 1920px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    background-color: #fff;
+    padding-top: $spacing-m;
+    padding-bottom: $spacing-m;
+    & a{
+        cursor: default;
+        transition: color 1s ease;
+    }
+    &-menu{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: $spacing-3xl;
+    }
+    &-list{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 174px;
+        height: 48px;
+        gap: $spacing-2xl;
+        @include text-tw-h6;
+        font-weight: 500;
+        padding-top: $spacing-s;
+        padding-bottom: $spacing-s;
+        & a{
+            color: $color-n-9;
+            text-decoration: none;
+        }
+        & a:hover{
+            color: $color-n-6;
+        }
+    }
+    &-bt-wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 48px;
+        width: 48px;
+    }
+    &-user{
+        height: 48px;
+        width: 48px;
+        min-height: 48px;
+        border-radius: $radius-sm;
+        padding: $spacing-s;
+        font-size: 18px;
+        gap: $spacing-xs;
+        color: $color-n-9;
+        background-color: #fff;
+        border: none;
+        transition: color 1s ease;
+    }
+    &-user:hover{
+        color: $text-highlight;
+    }
+}

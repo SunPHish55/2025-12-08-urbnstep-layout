@@ -1,12 +1,12 @@
 @mixin font-h{
     font-family: "Noto Sans TC", sans-serif;
     line-height: 1.2;
-    letter-spacing: 5em;
+    letter-spacing: 5%;
 }
 @mixin font-p{
     font-family: "Noto Sans TC", sans-serif;
     line-height: 1.5;
-    letter-spacing: 5em;
+    letter-spacing: 5%;
 }
 
 @mixin text-display1{
