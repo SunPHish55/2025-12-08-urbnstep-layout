@@ -37,5 +37,9 @@
 }
 
 .bt-p-tx {
-    @include bt-neutral();
+    @include bt-primary;
+}
+
+.bt-n-tx{
+    @include bt-neutral;
 }

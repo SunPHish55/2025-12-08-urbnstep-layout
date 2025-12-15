@@ -1,0 +1,38 @@
+.hero {
+    position: relative;
+
+    & img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    & .hero-content{
+        max-width: 586px;
+        position: absolute;
+        inset: 0;
+        margin-left: 200px;
+        gap: $spacing-m;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+
+        & h1{
+            @include text-display1;
+            font-weight: 700;
+            font-style: bold;
+            color: #FFF;
+        }
+
+        & h3{
+            @include text-tw-h3;
+            font-weight: 700;
+            font-style: bold;
+            color: #FFF;
+        }
+        & .bt-p-tx{
+            margin-top: 40px;
+        }
+    }
+}
