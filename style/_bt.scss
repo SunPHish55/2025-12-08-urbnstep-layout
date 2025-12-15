@@ -1,0 +1,41 @@
+@mixin bt-primary {
+    @include text-tw-lb-md;
+    padding: $spacing-s $spacing-l;
+    background-color: $color-p-3;
+    color: $color-n-9;
+    border: none;
+    border-radius: $radius-sm;
+    font-weight: 500;
+    cursor: default;
+    transition: background-color 0.8s ease, color 0.8s ease;
+
+    &:hover {
+        color: $color-p-5;
+    }
+    &:focus {
+        box-shadow: 0 0 0 3px rgba(192, 250, 115, 0.4);
+    }
+}
+
+@mixin bt-neutral {
+    @include text-tw-lb-md;
+    padding: $spacing-s $spacing-l;
+    background-color: $color-n-9;
+    color: #FFF;
+    border: none;
+    border-radius: $radius-sm;
+    font-weight: 500;
+    cursor: default;
+    transition: background-color 0.8s ease, color 0.8s ease;
+
+    &:hover {
+        background-color: $color-n-7;
+    }
+    &:focus {
+        box-shadow: 0 0 0 3px rgba(#212529, 0.1);
+    }
+}
+
+.bt-p-tx {
+    @include bt-neutral();
+}
