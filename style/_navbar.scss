@@ -2,17 +2,16 @@
     height: 80px;
     width: 100%;
     max-width: 1920px;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    padding-top: $spacing-m;
+    padding-bottom: $spacing-m;
     display: flex;
     align-items: center; 
     justify-content: space-between;
     background-color: #fff;
-    padding-top: $spacing-m;
-    padding-bottom: $spacing-m;
+
     & a{
         cursor: default;
-        transition: color 1s ease;
+        transition: color 0.8s ease;
     }
     &-menu{
         display: flex;
@@ -61,5 +60,52 @@
     }
     &-user:hover{
         color: $text-highlight;
+    }
+}
+
+@media (max-width: 376px) {
+    .navbar{
+        width: 100%;
+        height: 120px;
+        margin: 0;
+        padding: 0;
+        flex-wrap: wrap;
+
+        &-menu{
+        display: contents;
+        }
+        &-logo{
+            order: 1;
+            padding: 12px;
+        }
+        &-bt-wrapper{
+            order: 2;
+            padding: 12px;
+        }
+
+        &-list{
+            order: 3;
+            width: 100%;
+            height: 48px;
+            gap: 0;
+            padding-top: $spacing-s;
+            padding-bottom: $spacing-s;
+            color: $color-n-9;
+            @include text-tw-lb-md;
+
+            & a{
+                flex: 1;
+                display: flex;
+                height: 48px;
+                align-items: center;
+                justify-content: center;
+                &:first-child{
+                    background-color: $color-p-2;
+                }
+                &:last-child{
+                    background-color: $color-p-1;
+                }
+            }
+        }
     }
 }

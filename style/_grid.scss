@@ -12,8 +12,22 @@
   gap: 24px;
 }
 
+html, body {
+  height: 100%;
+}
+
+.layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
 /* mobile */
-@media (max-width: 375px) {
+@media (max-width: 376px) {
   .container {
     padding-left: 12px;
     padding-right: 12px;
