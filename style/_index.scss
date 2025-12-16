@@ -36,3 +36,15 @@
         }
     }
 }
+
+.new-arrival{
+    padding-top: $spacing-5xl;
+    padding-bottom: $spacing-5xl;
+    gap: 10px;
+
+    & .section-title{
+        @include text-tw-h4;
+        font-weight: 700;
+        margin-bottom: $spacing-2xl;
+    }
+}

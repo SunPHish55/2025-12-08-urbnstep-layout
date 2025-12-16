@@ -397,4 +397,18 @@ main {
 }
 .hero .hero-content .bt-p-tx {
   margin-top: 40px;
+}
+
+.new-arrival {
+  padding-top: 64px;
+  padding-bottom: 64px;
+  gap: 10px;
+}
+.new-arrival .section-title {
+  font-family: "Noto Sans TC", sans-serif;
+  line-height: 1.2;
+  letter-spacing: 5%;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 40px;
 }/*# sourceMappingURL=all.css.map */
