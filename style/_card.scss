@@ -1,0 +1,265 @@
+@mixin card-product-l{
+    width: 636px;
+    display: flex;
+    flex-direction: column;
+    gap: $spacing-s;
+    img {
+        transition: opacity 0.3s ease;
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    &:is(:hover, :active) img {
+        opacity: 0.8;
+    }
+    .product-label{
+        gap: $spacing-xxs;
+    }
+    .product-name{
+        @include text-tw-h5;
+        font-weight: 700;
+        color: $color-n-9;
+    }
+    .product-price{
+        @include text-tw-lb-md;
+        font-weight: 500;
+        color: $color-n-9;
+    }
+}
+
+@mixin card-product-m{
+    width: 343px;
+    display: flex;
+    flex-direction: column;
+    gap: $spacing-s;
+    img {
+        transition: opacity 0.3s ease;
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    &:is(:hover, :active) img {
+        opacity: 0.8;
+    }
+    .product-label{
+        gap: $spacing-xxs;
+    }
+    .product-name{
+        @include text-tw-h6;
+        font-weight: 700;
+        color: $color-n-9;
+    }
+    .product-price{
+        @include text-tw-lb-md;
+        font-weight: 500;
+        color: $color-n-9;
+    }
+}
+
+@mixin card-product-s{
+    width: 170px;
+    display: flex;
+    flex-direction: column;
+    gap: $spacing-xs;
+    img {
+        transition: opacity 0.3s ease;
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    &:is(:hover, :active) img {
+        opacity: 0.8;
+    }
+    .product-label{
+        gap: $spacing-xxs;
+    }
+    .product-name{
+        @include text-tw-h6;
+        font-weight: 700;
+        color: $color-n-9;
+    }
+    .product-price{
+        @include text-tw-lb-md;
+        font-weight: 500;
+        color: $color-n-9;
+    }
+}
+
+.card-product-l{
+    @include card-product-l;
+}
+
+.card-product-m{
+    @include card-product-m;
+}
+
+.card-product-s{
+    @include card-product-s;
+}
+
+@mixin card-img-l{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 422px;
+    height: 422px;
+    border: 1px solid #F1F3F7;
+    background: $color-n-4;
+    img {
+        transition: opacity 0.3s ease;
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    &:is(:hover, :active) img {
+        opacity: 0.8;
+    }
+    .img-label{
+        position: absolute;
+        top: 0;
+        left: 0;
+        @include text-tw-lb-sm;
+        font-weight: 500;
+        color: $color-p-4;
+        background-color: $color-p-1;
+        padding: $spacing-xs $spacing-s;
+    }
+}
+
+@mixin card-img-s{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    border: 1px solid #F1F3F7;
+    background: $color-n-4;
+    img {
+        transition: opacity 0.3s ease;
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    &:is(:hover, :active) img {
+        opacity: 0.8;
+    }
+    .img-label{
+        position: absolute;
+        top: 0;
+        left: 0;
+        @include text-tw-lb-sm;
+        font-weight: 500;
+        color: $color-p-4;
+        background-color: $color-p-1;
+        padding: $spacing-xs $spacing-s;
+    }
+}
+
+.card-img-l{
+    @include card-img-l;
+}
+.card-img-s{
+    @include card-img-s;
+}
+
+
+@mixin card-category-l{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 422px;
+    height: 422px;
+    background: $color-n-2;
+    img {
+        transition: opacity 0.3s ease;
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    &:is(:hover, :active) img {
+        opacity: 0.8;
+    }
+
+    &:is(:hover, :active) .category-label-en {
+        color: $color-p-3;
+    }
+    &::after{
+        content: "";
+        position: absolute;
+        inset: 0;
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+    .category-label{
+        position: absolute;
+        inset: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        z-index: 1;
+        font-weight: 700;
+        color: #FFF;
+        .category-label-en{
+            @include text-tw-h3;
+        }
+        .category-label-tw{
+            @include text-tw-h4;
+        }
+    }
+}
+
+@mixin card-category-s{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 164px;
+    height: 164px;
+    background: $color-n-2;
+    img {
+        transition: opacity 0.3s ease;
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    &:is(:hover, :active) img {
+        opacity: 0.8;
+    }
+
+    &:is(:hover, :active) .category-label-en {
+        color: $color-p-3;
+    }
+    &::after{
+        content: "";
+        position: absolute;
+        inset: 0;
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+    .category-label{
+        position: absolute;
+        inset: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        z-index: 1;
+        font-weight: 700;
+        color: #FFF;
+        .category-label-en{
+            @include text-tw-h6;
+        }
+        .category-label-tw{
+            @include text-tw-h6;
+        }
+    }
+}
+
+.card-category-l{
+    @include card-category-l;
+}
+.card-category-s{
+    @include card-category-s;
+}
