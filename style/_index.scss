@@ -169,3 +169,21 @@
         }
     }
 }
+
+.categories{
+    padding: $spacing-5xl 0;
+    .container{
+        display: flex;
+        flex-direction: column;
+        gap: $spacing-m;
+    }
+    header{
+        height: 48px;
+        display: flex;
+    }
+    h2{
+        @include text-tw-h2;
+        font-weight: 700;
+        color: $color-n-9;
+    }
+}
