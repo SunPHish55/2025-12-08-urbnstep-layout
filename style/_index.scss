@@ -36,13 +36,48 @@
 }
 
 .new-arrival{
+    display: flex;
     padding-top: $spacing-5xl;
     padding-bottom: $spacing-5xl;
-    gap: 10px;
+    .container{
+        display: flex;
+        flex-direction: column;
+        gap: $spacing-xl;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: $spacing-s;
+        .title{
+            @include text-display2;
+            font-weight: 700;
+            color: $color-n-9;
+        }
+        h2{
+            @include text-tw-h2;
+            font-weight: 700;
+            color: $color-n-9;
+        }
+    }
+}
 
-    .section-title{
-        @include text-tw-h4;
+.best-seller{
+    padding: $spacing-5xl 0;
+    .container{
+        display: flex;
+        flex-direction: column;
+        gap: $spacing-m;
+    }
+    header{
+        height: 48px;
+        display: flex;
+        align-items: center
+    }
+    h2{
+        @include text-tw-h2;
         font-weight: 700;
-        margin-bottom: $spacing-2xl;
+        color: $color-n-9;
     }
 }
