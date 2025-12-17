@@ -1,6 +1,6 @@
 .container{
     width: 100%;
-    max-width: 1296px;
+    max-width: 1920px;
     margin: 0 auto;
     padding-left: 312px;
     padding-right: 312px;
@@ -11,6 +11,13 @@
   grid-template-columns: repeat(12, 1fr);
   gap: 24px;
 }
+
+.col-12 { grid-column: span 12; }
+.col-6  { grid-column: span 6; }
+.col-4  { grid-column: span 4; }
+.col-3  { grid-column: span 3; }
+.col-2  { grid-column: span 2; }
+
 
 html, body {
   height: 100%;
@@ -34,6 +41,7 @@ main {
   }
 
   .row {
+    grid-template-columns: repeat(4, 1fr);
     gap: 16px;
   }
 }
