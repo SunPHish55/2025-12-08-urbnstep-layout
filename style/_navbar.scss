@@ -26,10 +26,11 @@
         width: 174px;
         height: 48px;
         gap: $spacing-2xl;
-        @include text-tw-h6;
+        @include text-tw-lb-md;
         font-weight: 500;
-        padding-top: $spacing-s;
-        padding-bottom: $spacing-s;
+        letter-spacing: 0.047em;
+        padding: $spacing-s 0;
+
         & a{
             color: $color-n-9;
             text-decoration: none;

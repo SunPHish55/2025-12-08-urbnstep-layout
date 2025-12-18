@@ -1,4 +1,4 @@
-@mixin bt-primary {
+.bt-p-tx {
     @include text-tw-lb-md;
     padding: $spacing-s $spacing-l;
     background-color: $color-p-3;
@@ -17,7 +17,7 @@
     }
 }
 
-@mixin bt-neutral {
+.bt-n-tx{
     @include text-tw-lb-md;
     padding: $spacing-s $spacing-l;
     background-color: $color-n-9;
@@ -36,10 +36,93 @@
     }
 }
 
-.bt-p-tx {
-    @include bt-primary;
+.bt-active{
+    max-width: 160px;
+    width: 100%;
+    max-height: 48px;
+    height: 100%;
+    @include text-tw-lb-md;
+    font-weight: 500;
+    color: $color-n-9;
+    border: 1px solid $color-n-3;
+    border-radius: $radius-sm;
+    background-color: #FFF;
+    padding: $spacing-s $spacing-l;
+
+    &:hover{
+        border-color: $color-n-6;
+    }
+    &:focus{
+        border-color: $color-n-9;
+    }
 }
 
-.bt-n-tx{
-    @include bt-neutral;
+.bt-disabled{
+    max-width: 160px;
+    width: 100%;
+    max-height: 48px;
+    height: 100%;
+    @include text-tw-lb-md;
+    font-weight: 500;
+    color: $color-n-9;
+    border: 1px solid $color-n-3;
+    border-radius: $radius-sm;
+    background-color: #FFF;
+    padding: $spacing-s $spacing-l;
+    opacity: 0.4;
+}
+
+.bt-fav{
+    display: flex;
+    justify-content: center;
+    gap: $spacing-xs;
+    max-width: 259px;
+    width: 100%;
+    max-height: 48px;
+    height: 100%;
+    @include text-tw-lb-md;
+    font-weight: 500;
+    color: $color-n-9;
+    border: 1px solid $color-n-9;
+    border-radius: $radius-sm;
+    background-color: #FFF;
+    padding: $spacing-s $spacing-l;
+    transition:
+        background 0.4s ease,
+        color 0.4s ease,
+        border-color 0.4s ease;
+    i{
+        max-width: 20px;
+        width: 100%;
+        max-height: 20px;
+        height: 100%;
+    }
+    &:hover{
+        color: #FFF;
+        background-color: $color-n-9;
+    }
+
+
+}
+
+.bt-cart{
+    display: flex;
+    justify-content: center;
+    gap: $spacing-xs;
+    max-width: 259px;
+    width: 100%;
+    max-height: 48px;
+    height: 100%;
+    @include text-tw-lb-md;
+    font-weight: 500;
+    color: #FFF;
+    border-radius: $radius-sm;
+    background-color: $color-n-9;
+    padding: $spacing-s $spacing-l;
+    i{
+        max-width: 20px;
+        width: 100%;
+        max-height: 20px;
+        height: 100%;
+    }
 }
