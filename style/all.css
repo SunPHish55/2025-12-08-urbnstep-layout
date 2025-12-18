@@ -99,6 +99,14 @@ body {
   grid-row: span 2;
 }
 
+.col-7 {
+  grid-column: span 7;
+}
+
+.col-5 {
+  grid-column: span 5;
+}
+
 html, body {
   height: 100%;
 }
@@ -146,7 +154,7 @@ main {
 .card-product-l .product-name {
   font-family: "Noto Sans TC", sans-serif;
   line-height: 1.2;
-  letter-spacing: 5%;
+  letter-spacing: 0.05em;
   font-size: 20px;
   font-weight: 700;
   color: #212529;
@@ -154,7 +162,7 @@ main {
 .card-product-l .product-price {
   font-family: "Noto Sans TC", sans-serif;
   line-height: 1.5;
-  letter-spacing: 5%;
+  letter-spacing: 0.05em;
   font-size: 16px;
   font-weight: 500;
   color: #212529;
@@ -182,7 +190,7 @@ main {
 .card-product-m .product-name {
   font-family: "Noto Sans TC", sans-serif;
   line-height: 1.2;
-  letter-spacing: 5%;
+  letter-spacing: 0.05em;
   font-size: 16px;
   font-weight: 700;
   color: #212529;
@@ -190,7 +198,7 @@ main {
 .card-product-m .product-price {
   font-family: "Noto Sans TC", sans-serif;
   line-height: 1.5;
-  letter-spacing: 5%;
+  letter-spacing: 0.05em;
   font-size: 16px;
   font-weight: 500;
   color: #212529;
@@ -218,7 +226,7 @@ main {
 .card-product-s .product-name {
   font-family: "Noto Sans TC", sans-serif;
   line-height: 1.2;
-  letter-spacing: 5%;
+  letter-spacing: 0.05em;
   font-size: 16px;
   font-weight: 700;
   color: #212529;
@@ -226,7 +234,7 @@ main {
 .card-product-s .product-price {
   font-family: "Noto Sans TC", sans-serif;
   line-height: 1.5;
-  letter-spacing: 5%;
+  letter-spacing: 0.05em;
   font-size: 16px;
   font-weight: 500;
   color: #212529;
@@ -256,7 +264,7 @@ main {
   left: 0;
   font-family: "Noto Sans TC", sans-serif;
   line-height: 1.5;
-  letter-spacing: 5%;
+  letter-spacing: 0.05em;
   font-size: 14px;
   font-weight: 500;
   color: #57A203;
@@ -288,7 +296,7 @@ main {
   left: 0;
   font-family: "Noto Sans TC", sans-serif;
   line-height: 1.5;
-  letter-spacing: 5%;
+  letter-spacing: 0.05em;
   font-size: 14px;
   font-weight: 500;
   color: #57A203;
@@ -338,13 +346,13 @@ main {
 .card-category-l .category-label .category-label-en {
   font-family: "Noto Sans TC", sans-serif;
   line-height: 1.2;
-  letter-spacing: 5%;
+  letter-spacing: 0.05em;
   font-size: 28px;
 }
 .card-category-l .category-label .category-label-tw {
   font-family: "Noto Sans TC", sans-serif;
   line-height: 1.2;
-  letter-spacing: 5%;
+  letter-spacing: 0.05em;
   font-size: 24px;
 }
 
@@ -390,13 +398,13 @@ main {
 .card-category-s .category-label .category-label-en {
   font-family: "Noto Sans TC", sans-serif;
   line-height: 1.2;
-  letter-spacing: 5%;
+  letter-spacing: 0.05em;
   font-size: 16px;
 }
 .card-category-s .category-label .category-label-tw {
   font-family: "Noto Sans TC", sans-serif;
   line-height: 1.2;
-  letter-spacing: 5%;
+  letter-spacing: 0.05em;
   font-size: 16px;
 }
 
@@ -429,12 +437,12 @@ main {
   height: 48px;
   gap: 40px;
   font-family: "Noto Sans TC", sans-serif;
-  line-height: 1.2;
-  letter-spacing: 5%;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
   font-size: 16px;
   font-weight: 500;
-  padding-top: 12px;
-  padding-bottom: 12px;
+  letter-spacing: 0.047em;
+  padding: 12px 0;
 }
 .navbar-list a {
   color: #212529;
@@ -496,7 +504,7 @@ main {
     color: #212529;
     font-family: "Noto Sans TC", sans-serif;
     line-height: 1.5;
-    letter-spacing: 5%;
+    letter-spacing: 0.05em;
     font-size: 16px;
   }
   .navbar-list a {
@@ -544,11 +552,11 @@ main {
   gap: 40px;
   font-family: "Noto Sans TC", sans-serif;
   line-height: 1.5;
-  letter-spacing: 5%;
+  letter-spacing: 0.05em;
   font-size: 16px;
+  letter-spacing: 0.047em;
   font-weight: 500;
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding: 12px 0;
 }
 .footer-logo-link .footer-list a {
   color: #212529;
@@ -563,7 +571,7 @@ main {
   padding-top: 32px;
   font-family: "Noto Sans TC", sans-serif;
   line-height: 1.5;
-  letter-spacing: 5%;
+  letter-spacing: 0.05em;
   font-size: 14px;
   font-weight: 400;
   color: #6C757D;
@@ -599,7 +607,7 @@ main {
 .bt-p-tx {
   font-family: "Noto Sans TC", sans-serif;
   line-height: 1.5;
-  letter-spacing: 5%;
+  letter-spacing: 0.05em;
   font-size: 16px;
   padding: 12px 24px;
   background-color: #C0FA73;
@@ -620,7 +628,7 @@ main {
 .bt-n-tx {
   font-family: "Noto Sans TC", sans-serif;
   line-height: 1.5;
-  letter-spacing: 5%;
+  letter-spacing: 0.05em;
   font-size: 16px;
   padding: 12px 24px;
   background-color: #212529;
@@ -636,6 +644,103 @@ main {
 }
 .bt-n-tx:focus {
   box-shadow: 0 0 0 3px rgba(33, 37, 41, 0.1);
+}
+
+.bt-active {
+  max-width: 160px;
+  width: 100%;
+  max-height: 48px;
+  height: 100%;
+  font-family: "Noto Sans TC", sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+  font-size: 16px;
+  font-weight: 500;
+  color: #212529;
+  border: 1px solid #DEE2E6;
+  border-radius: 4px;
+  background-color: #FFF;
+  padding: 12px 24px;
+}
+.bt-active:hover {
+  border-color: #6C757D;
+}
+.bt-active:focus {
+  border-color: #212529;
+}
+
+.bt-disabled {
+  max-width: 160px;
+  width: 100%;
+  max-height: 48px;
+  height: 100%;
+  font-family: "Noto Sans TC", sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+  font-size: 16px;
+  font-weight: 500;
+  color: #212529;
+  border: 1px solid #DEE2E6;
+  border-radius: 4px;
+  background-color: #FFF;
+  padding: 12px 24px;
+  opacity: 0.4;
+}
+
+.bt-fav {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  max-width: 259px;
+  width: 100%;
+  max-height: 48px;
+  height: 100%;
+  font-family: "Noto Sans TC", sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+  font-size: 16px;
+  font-weight: 500;
+  color: #212529;
+  border: 1px solid #212529;
+  border-radius: 4px;
+  background-color: #FFF;
+  padding: 12px 24px;
+  transition: background 0.4s ease, color 0.4s ease, border-color 0.4s ease;
+}
+.bt-fav i {
+  max-width: 20px;
+  width: 100%;
+  max-height: 20px;
+  height: 100%;
+}
+.bt-fav:hover {
+  color: #FFF;
+  background-color: #212529;
+}
+
+.bt-cart {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  max-width: 259px;
+  width: 100%;
+  max-height: 48px;
+  height: 100%;
+  font-family: "Noto Sans TC", sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+  font-size: 16px;
+  font-weight: 500;
+  color: #FFF;
+  border-radius: 4px;
+  background-color: #212529;
+  padding: 12px 24px;
+}
+.bt-cart i {
+  max-width: 20px;
+  width: 100%;
+  max-height: 20px;
+  height: 100%;
 }
 
 .hero {
@@ -661,7 +766,7 @@ main {
 .hero .hero-content h1 {
   font-family: "Noto Sans TC", sans-serif;
   line-height: 1.2;
-  letter-spacing: 5%;
+  letter-spacing: 0.05em;
   font-size: 64px;
   font-weight: 700;
   color: #FFF;
@@ -669,7 +774,7 @@ main {
 .hero .hero-content h3 {
   font-family: "Noto Sans TC", sans-serif;
   line-height: 1.2;
-  letter-spacing: 5%;
+  letter-spacing: 0.05em;
   font-size: 28px;
   font-weight: 700;
   color: #FFF;
@@ -698,7 +803,7 @@ main {
 .new-arrival header .title {
   font-family: "Noto Sans TC", sans-serif;
   line-height: 1.2;
-  letter-spacing: 5%;
+  letter-spacing: 0.05em;
   font-size: 48px;
   font-weight: 700;
   color: #212529;
@@ -706,7 +811,7 @@ main {
 .new-arrival header h2 {
   font-family: "Noto Sans TC", sans-serif;
   line-height: 1.2;
-  letter-spacing: 5%;
+  letter-spacing: 0.05em;
   font-size: 32px;
   font-weight: 700;
   color: #212529;
@@ -728,7 +833,7 @@ main {
 .best-seller h2 {
   font-family: "Noto Sans TC", sans-serif;
   line-height: 1.2;
-  letter-spacing: 5%;
+  letter-spacing: 0.05em;
   font-size: 32px;
   font-weight: 700;
   color: #212529;
@@ -792,7 +897,7 @@ main {
 .collab-banner .collab-content h2 {
   font-family: "Noto Sans TC", sans-serif;
   line-height: 1.2;
-  letter-spacing: 5%;
+  letter-spacing: 0.05em;
   font-size: 48px;
   font-weight: 700;
   color: #FFF;
@@ -800,7 +905,7 @@ main {
 .collab-banner .collab-content h3 {
   font-family: "Noto Sans TC", sans-serif;
   line-height: 1.2;
-  letter-spacing: 5%;
+  letter-spacing: 0.05em;
   font-size: 32px;
   font-weight: 700;
   color: #FFF;
@@ -808,7 +913,7 @@ main {
 .collab-banner .collab-content .x {
   font-family: "Noto Sans TC", sans-serif;
   line-height: 1.2;
-  letter-spacing: 5%;
+  letter-spacing: 0.05em;
   font-size: 40px;
   font-weight: 700;
   color: #C0FA73;
@@ -816,7 +921,7 @@ main {
 .collab-banner .collab-content h3 {
   font-family: "Noto Sans TC", sans-serif;
   line-height: 1.2;
-  letter-spacing: 5%;
+  letter-spacing: 0.05em;
   font-size: 28px;
   font-weight: 700;
   color: #FFF;
@@ -824,7 +929,7 @@ main {
 .collab-banner .collab-content p {
   font-family: "Noto Sans TC", sans-serif;
   line-height: 1.5;
-  letter-spacing: 5%;
+  letter-spacing: 0.05em;
   font-size: 20px;
   color: #ADB5BD;
   font-weight: 400;
@@ -845,7 +950,7 @@ main {
 .categories h2 {
   font-family: "Noto Sans TC", sans-serif;
   line-height: 1.2;
-  letter-spacing: 5%;
+  letter-spacing: 0.05em;
   font-size: 32px;
   font-weight: 700;
   color: #212529;
@@ -865,7 +970,7 @@ main {
 .inspirations h2 {
   font-family: "Noto Sans TC", sans-serif;
   line-height: 1.2;
-  letter-spacing: 5%;
+  letter-spacing: 0.05em;
   font-size: 32px;
   font-weight: 700;
   color: #212529;
@@ -885,7 +990,267 @@ main {
 .sign-up-bar .container h4 {
   font-family: "Noto Sans TC", sans-serif;
   line-height: 1.2;
-  letter-spacing: 5%;
+  letter-spacing: 0.05em;
+  font-size: 24px;
+  font-weight: 700;
+  color: #212529;
+}
+
+.product {
+  padding: 64px 0;
+}
+.product-image .row {
+  gap: 8px;
+}
+.product-info {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.product-info .intro {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.product-info .intro header {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.product-info .intro header .breadcrumb ol {
+  display: flex;
+}
+.product-info .intro header .breadcrumb ol li {
+  font-family: "Noto Sans TC", sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+  font-size: 16px;
+  font-weight: 500;
+  color: #212529;
+}
+.product-info .intro header .breadcrumb ol a {
+  text-decoration: none;
+  font-family: "Noto Sans TC", sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+  font-size: 16px;
+  font-weight: 500;
+  color: #6C757D;
+  transition: color 0.8 ease;
+}
+.product-info .intro header .breadcrumb ol a:hover {
+  color: #57A203;
+}
+.product-info .intro header .breadcrumb li + li::before {
+  content: "/";
+  font-family: "Noto Sans TC", sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+  font-size: 16px;
+  margin: 0 12px;
+  font-weight: 700;
+  color: #DEE2E6;
+}
+.product-info .intro header h2 {
+  height: 38px;
+  display: flex;
+  align-items: center;
+  font-family: "Noto Sans TC", sans-serif;
+  line-height: 1.2;
+  letter-spacing: 0.05em;
+  font-size: 32px;
+  font-weight: 700;
+  color: #212529;
+}
+.product-info .intro .price {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.product-info .intro .price .sale-price {
+  font-family: "Noto Sans TC", sans-serif;
+  line-height: 1.2;
+  letter-spacing: 0.05em;
+  font-size: 20px;
+  font-weight: 700;
+  color: #57A203;
+}
+.product-info .intro .price .origin-price {
+  font-family: "Noto Sans TC", sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+  font-size: 14px;
+  font-weight: 400;
+  color: #ADB5BD;
+  text-decoration: line-through;
+}
+.product-info .intro-content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  font-family: "Noto Sans TC", sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+  font-size: 16px;
+  font-weight: 400;
+  color: #212529;
+}
+.product-info .spec-cta {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+.product-info .spec-cta .spec {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.product-info .spec-cta .spec .color {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.product-info .spec-cta .spec .color h5 {
+  height: 24px;
+  display: flex;
+  align-items: center;
+  font-family: "Noto Sans TC", sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+  font-size: 16px;
+  font-weight: 400;
+  color: #212529;
+}
+.product-info .spec-cta .spec .color .color-bt {
+  display: flex;
+  gap: 8px;
+}
+.product-info .spec-cta .spec .color .color-bt .bt-wrapper {
+  width: 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.product-info .spec-cta .spec .color .color-bt .bt-wrapper button {
+  width: 64px;
+  height: 64px;
+  background-color: #F1F3F7;
+  border: none;
+  padding-block: 0;
+  padding-inline: 0;
+}
+.product-info .spec-cta .spec .color .color-bt .bt-wrapper button img {
+  width: 100%;
+}
+.product-info .spec-cta .spec .color .color-bt .bt-wrapper p {
+  font-family: "Noto Sans TC", sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+  font-size: 16px;
+  color: #6C757D;
+}
+.product-info .spec-cta .spec .size {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.product-info .spec-cta .spec .size h5 {
+  height: 24px;
+  display: flex;
+  align-items: center;
+  font-family: "Noto Sans TC", sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+  font-size: 16px;
+  font-weight: 400;
+  color: #212529;
+}
+.product-info .spec-cta .spec .size .bt-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.product-info .spec-cta .spec .size p {
+  font-family: "Noto Sans TC", sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+  font-size: 14px;
+  font-weight: 400;
+  color: #D74F4F;
+}
+.product-info .spec-cta .cta {
+  display: flex;
+  gap: 8px;
+}
+.product-info .detail {
+  display: flex;
+  flex-direction: column;
+}
+.product-info .detail-item {
+  display: flex;
+  flex-direction: column;
+  padding: 12px 0;
+  border-bottom: 1px solid #DEE2E6;
+}
+.product-info .detail-item h5 {
+  height: 24px;
+  display: flex;
+  align-items: center;
+  font-family: "Noto Sans TC", sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+  font-size: 16px;
+  font-weight: 500;
+  color: #212529;
+}
+.product-info .detail-item p {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Noto Sans TC", sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+  font-size: 16px;
+  font-weight: 400;
+  color: #6C757D;
+}
+
+.recommendations {
+  padding: 48px 0;
+}
+.recommendations .container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.recommendations .container header {
+  height: 48px;
+  display: flex;
+  align-items: center;
+}
+.recommendations .container header h4 {
+  font-family: "Noto Sans TC", sans-serif;
+  line-height: 1.2;
+  letter-spacing: 0.05em;
+  font-size: 24px;
+  font-weight: 700;
+  color: #212529;
+}
+
+.sign-up-bar {
+  padding-top: 48px;
+}
+.sign-up-bar .container {
+  background-color: #E8FEC5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  padding: 24px 0;
+}
+.sign-up-bar .container h4 {
+  font-family: "Noto Sans TC", sans-serif;
+  line-height: 1.2;
+  letter-spacing: 0.05em;
   font-size: 24px;
   font-weight: 700;
   color: #212529;

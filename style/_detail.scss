@@ -1,0 +1,222 @@
+.product{
+    padding: $spacing-5xl 0;
+    &-image{
+        .row{
+            gap: $spacing-xs;
+        }
+    }
+    &-info{
+        display: flex;
+        flex-direction: column;
+        gap: $spacing-xl;
+        .intro{
+            display: flex;
+            flex-direction: column;
+            gap: $spacing-m;
+            header{
+                display: flex;
+                flex-direction: column;
+                gap: $spacing-s;
+                .breadcrumb{
+                    ol{
+                        li{
+                            @include text-tw-lb-md;
+                            font-weight: 500;
+                            color: $color-n-9;
+                        }
+                        display: flex;
+                        a{
+                            text-decoration: none;
+                            @include text-tw-lb-md;
+                            font-weight: 500;
+                            color: $color-n-6;
+                            transition: color 0.8 ease;
+                        }
+                        a:hover{
+                            color: $color-p-4;
+                        }
+                    }
+                    li + li::before{
+                        content: "/";
+                        @include text-tw-lb-md;
+                        margin: 0 12px;
+                        font-weight: 700;
+                        color: $color-n-3;
+                    }
+                }
+                h2{
+                    height: 38px;
+                    display: flex;
+                    align-items: center;
+                    @include text-tw-h2;
+                    font-weight: 700;
+                    color: $color-n-9;
+                }
+            }
+            .price{
+                display: flex;
+                align-items: center;
+                gap: $spacing-xs;
+                .sale-price{
+                    @include text-tw-h5;
+                    font-weight: 700;
+                    color: $color-p-4;
+
+                }
+                .origin-price{
+                    @include text-tw-p-sm;
+                    font-weight: 400;
+                    color: $color-n-5;
+                    text-decoration: line-through;
+                }
+            }
+            &-content{
+                display: flex;
+                flex-direction: column;
+                gap: $spacing-s;
+                @include text-tw-p-md;
+                font-weight: 400;
+                color: $color-n-9;
+            }
+        }
+        .spec-cta{
+            display: flex;
+            flex-direction: column;
+            gap: $spacing-3xl;
+            .spec{
+                display: flex;
+                flex-direction: column;
+                gap: $spacing-xl;
+                .color{
+                    display: flex;
+                    flex-direction: column;
+                    gap: $spacing-xs;
+                    h5{
+                        height: 24px;
+                        display: flex;
+                        align-items: center;
+                        @include text-tw-p-md;
+                        font-weight: 400;
+                        color: $color-n-9;
+                    }
+                    .color-bt{
+                        display: flex;
+                        gap: $spacing-xs;
+                        .bt-wrapper{
+                            
+                            width: 64px;
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            button{
+                                width: 64px;
+                                height: 64px;
+                                background-color: #F1F3F7;
+                                border: none;
+                                padding-block: 0;
+                                padding-inline: 0;
+                                img{
+                                    width: 100%;
+                                }
+                            }
+                            p{
+                                    @include text-tw-lb-md;
+                                color: $color-n-6;
+                            }
+                        }
+                    }
+                }
+                .size{
+                    display: flex;
+                    flex-direction: column;
+                    gap: $spacing-xs;
+                    h5{
+                        height: 24px;
+                        display: flex;
+                        align-items: center;
+                        @include text-tw-p-md;
+                        font-weight: 400;
+                        color: $color-n-9;
+                    }
+                    .bt-wrapper{
+                        display: flex;
+                        flex-wrap: wrap;
+                        gap: $spacing-xs;
+                    }
+                    p{
+                        @include text-tw-p-sm;
+                        font-weight: 400;
+                        color: $color-f-d-3;
+                    }
+
+                }
+            }
+            .cta{
+                display: flex;
+                gap: $spacing-xs;
+            }
+        }
+        .detail{
+            display: flex;
+            flex-direction: column;
+            &-item{
+                display: flex;
+                flex-direction: column;
+                padding: $spacing-s 0;
+                border-bottom: 1px solid $color-n-3;
+                h5{
+                    height: 24px;
+                    display: flex;
+                    align-items: center;
+                    @include text-tw-lb-md;
+                    font-weight: 500;
+                    color: $color-n-9;
+                }
+                p{
+                    display: flex;
+                    flex-wrap: wrap;
+                    @include text-tw-p-md;
+                    font-weight: 400;
+                    color: $color-n-6;
+                }
+            }
+        }
+    }
+}
+
+.recommendations{
+    padding: $spacing-3xl 0;
+    .container{
+        display: flex;
+        flex-direction: column;
+        gap: $spacing-m;
+
+        header{
+            height: 48px;
+            display: flex;
+            align-items: center;
+            h4{
+                @include text-tw-h4;
+                font-weight: 700;
+                color: $color-n-9;
+            }
+        }
+    }
+}
+
+.sign-up-bar{
+    padding-top: $spacing-3xl;
+    .container{
+        background-color: $color-p-2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: $spacing-l;
+        padding: $spacing-l 0;
+        h4{
+            @include text-tw-h4;
+            font-weight: 700;
+            color: $color-n-9;
+        }
+    }
+}
