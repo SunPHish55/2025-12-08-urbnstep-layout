@@ -76,22 +76,27 @@ body {
 
 .col-12 {
   grid-column: span 12;
+  grid-row: span 12;
 }
 
 .col-6 {
   grid-column: span 6;
+  grid-row: span 6;
 }
 
 .col-4 {
   grid-column: span 4;
+  grid-row: span 4;
 }
 
 .col-3 {
   grid-column: span 3;
+  grid-row: span 3;
 }
 
 .col-2 {
   grid-column: span 2;
+  grid-row: span 2;
 }
 
 html, body {
@@ -842,6 +847,46 @@ main {
   line-height: 1.2;
   letter-spacing: 5%;
   font-size: 32px;
+  font-weight: 700;
+  color: #212529;
+}
+
+.inspirations {
+  padding: 64px 0;
+}
+.inspirations .container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.inspirations .row {
+  gap: 8px;
+}
+.inspirations h2 {
+  font-family: "Noto Sans TC", sans-serif;
+  line-height: 1.2;
+  letter-spacing: 5%;
+  font-size: 32px;
+  font-weight: 700;
+  color: #212529;
+}
+
+.sign-up-bar {
+  padding-top: 48px;
+}
+.sign-up-bar .container {
+  background-color: #E8FEC5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  padding: 24px 0;
+}
+.sign-up-bar .container h4 {
+  font-family: "Noto Sans TC", sans-serif;
+  line-height: 1.2;
+  letter-spacing: 5%;
+  font-size: 24px;
   font-weight: 700;
   color: #212529;
 }/*# sourceMappingURL=all.css.map */

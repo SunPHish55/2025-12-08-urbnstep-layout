@@ -187,3 +187,37 @@
         color: $color-n-9;
     }
 }
+
+.inspirations{
+    padding: $spacing-5xl 0;
+    .container{
+        display: flex;
+        flex-direction: column;
+        gap: $spacing-m;
+    }
+    .row{
+        gap: $spacing-xs;
+    }
+    h2{
+        @include text-tw-h2;
+        font-weight: 700;
+        color: $color-n-9;
+    }
+}
+
+.sign-up-bar{
+    padding-top: $spacing-3xl;
+    .container{
+        background-color: $color-p-2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: $spacing-l;
+        padding: $spacing-l 0;
+        h4{
+            @include text-tw-h4;
+            font-weight: 700;
+            color: $color-n-9;
+        }
+    }
+}
